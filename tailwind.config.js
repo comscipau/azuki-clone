@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         beanzbg: "url('/src/assets/beanzbgwhite.png')",
+        sec1img: "url('/src/assets/1.png')",
+        sec2img: "url('/src/assets/2.png')",
+        sec3img: "url('/src/assets/3.png')",
       },
     },
     screens: {
