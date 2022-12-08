@@ -82,7 +82,12 @@ const Beanz = () => {
     <div className="w-screen h-screen bg-black overflow-x-hidden">
       <div className="w-screen h-[screen] bg-beanzbg bg-no-repeat bg-contain bg-bottom lg:bg-top lg:bg-cover relative bg-fixed flex flex-col">
         {/* <motion.div className="bg-[#bc3848] bg-opacity-90"> */}
-        <motion.div animate={bgAnimation}>
+        <motion.div
+          initial={{
+            backgroundColor: "rgba(188,56,72,0.95)",
+          }}
+          animate={bgAnimation}
+        >
           <div
             ref={ref1}
             // className="w-screen h-screen bg-[#bc3848] bg-opacity-90"
